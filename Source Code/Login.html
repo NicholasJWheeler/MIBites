@@ -1,0 +1,38 @@
+<!--This website is used to prompt the user to enter their login
+information to be validated by the connected Miami University
+MySQL server.
+Author: Nicholas Wheeler (2022)-->
+<html>
+<head>
+   <title>Login Portal</title>
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="./styles.css">
+   <link rel="stylesheet" href="./generalStyle.css">
+</head>
+<body>
+
+   <div class="splash-container">
+      <div class="splash">
+          <h1>MIBites Login Portal</h1>
+          <p class="splash-subhead">
+             Your <b>username</b> and <b>Password</b> are <u>both</u> case sensitive.
+          </p>
+          <form action = "login.cgi" method = "POST">
+            <label for="uname" class="form-label">Username: </label>
+            <input type="text" id="uname" name="username" placeholder="Username here..."> <br />
+
+            <label for="pwd" class="form-label">Password: </label>
+            <input type="password" id="pwd" name="password" placeholder="Password here..."> <br /> <br />
+
+            <!-- Username: <input type = "text" name = "username">  <br />
+            Password: <input type = "text" name = "password" /> <br /> <br /> -->
+            <input type = "submit" value = "Submit" />
+         </form>
+         <form action="./Registration.html">
+            <label for="login" class="form-label">Haven't created a login yet?: </label>
+            <input type="submit" value="Create A New Account" />
+        </form>
+      </div>
+  </div>
+</body>
+</html>

@@ -91,7 +91,13 @@ Here Sonic has just successfully logged into MIBites and has the three options o
 Since Sonic's favorite food is chili dogs, he decides to try the restaurant Red Zone as they have a wide selection of hot dog options. In the picture below Sonic can be seen leaving a review of Red Zone as well as a comment indicating the restaurant experience.<br><br>
 
 ![](https://github.com/NicholasJWheeler/MIBites/blob/main/Images/exampleReview.png?raw=true)
-<br><br><br>
+<br><br>
+
+Once a review has been submitted and processed correctly, users are greeted with this screen to know that their response has been saved and updated in the system.
+<br><br>
+
+![](https://github.com/NicholasJWheeler/MIBites/blob/main/Images/SuccessfulReview.png?raw=true)
+<br><br>
 
 This project served as a great experience for me to learn the basics of creating dynamic web pages hosted on servers that can be accessed anytime. I used the idea of a restaurant review application as a proof of concept for a locally-focused application that students could use to find useful information from other students with honest feedback and opinions about food near them. I certainly would like to continue creating web applications as well as utilizing other languages in the future.
 
